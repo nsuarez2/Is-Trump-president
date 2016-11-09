@@ -11,7 +11,7 @@ JINJA_ENVIRONMENT = jinja2.Environment(
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         template = JINJA_ENVIRONMENT.get_template('templates/index.html')
-        infoDict = {'result': 'Please, no', 'yes': False}
+        infoDict = {'result': 'Not 100% yet', 'yes': False}
         self.response.write(template.render(infoDict))
 
 app = webapp2.WSGIApplication([
