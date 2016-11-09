@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Is Donald Trump Our President?</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	{% if yes %}
+	<link rel="shortcut icon" type="image/x-icon" href="static/yesfavicon.ico">
+	{% else %}
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	{% endif %}
+	<link rel="stylesheet" type="text/css" href="static/main.css">
+
+	<!-- This website was made by Nico @ nicosuarez.com -->
+</head>
+<body>
+	<div class="centered">
+		<p id="result">{{result}}</p>
+	</div>
+	<div class="footer">
+		<p id="venmo_plz">Like this? Feel free to venmo me! <a href="https://venmo.com/nico-suarez?txn=pay&note=Donald+Trump+is+not+our+president" target="_blank">@Nico-Suarez</a></p>
+		<p id="humble_brag">Created by <a href="http://nicosuarez.com" target="_blank">Nico Suarez</a></p>
+	</div>
+</body>
+</html>

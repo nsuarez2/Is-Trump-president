@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: block;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    overflow: hidden;
+}
+
+.centered {
+    width: 100%;
+    height: 200px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+#result {
+    font-size: 115px;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+}
+
+#humble_brag, #venmo_plz {
+    font-size: 12px;
+    margin: 2px;
+}
+
+#venmo_plz a {
+    text-decoration: none;
+}
+
+#humble_brag a {
+    color: black;
+    text-decoration: none;
+}
